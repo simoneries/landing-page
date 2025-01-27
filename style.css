@@ -43,9 +43,40 @@ body{
 /*Setting the information section*/
 .information{
     background-color: aqua;
-    flex:1;
+    display: flex;
+    flex:none;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    height: 30%;
+
+}
+.information .title{
+    display:flex;
+    flex: 1;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content img{
+    width: 100px;
+    height: 100%;
+    flex: 1;
+}
+
+.first-box,.second-box,.third-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Set the quote section*/
 .quote{
     background-color: blueviolet;
     flex:1;
