@@ -2,6 +2,7 @@
     padding:0;
     margin:0
 }
+
 body{
     min-height:100vh;
     display: flex;
@@ -9,11 +10,28 @@ body{
     justify-content: space-between;
 }
 
+/*Setting the header*/
 .header{
     background-color: bisque;
     flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
+.left-side{
+    display:flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+.header img{
+    height: 100%;
+    width: 300px;
+}
+
+
+/*Setting the information section*/
 .information{
     background-color: aqua;
     flex:1;
