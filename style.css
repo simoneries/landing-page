@@ -52,6 +52,7 @@ body{
 .header img{
     height: 100%;
     width: 250px;
+    border-radius: 10px;
 }
 
 
@@ -82,6 +83,7 @@ body{
 .content img{
     width: 70px;
     height: 100%;
+    border-radius: 7px;
 }
 
 .first-box,.second-box,.third-box{
@@ -118,6 +120,7 @@ body{
     max-width: 70%;
     background-color: rgb(244, 136, 65);
     padding: 10px;
+    border-radius: 10px;
 
 }
 
