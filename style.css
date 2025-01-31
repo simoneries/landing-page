@@ -112,6 +112,7 @@ body{
 .call-to-action{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex: auto;
     max-width: 70%;
     background-color: aqua;
