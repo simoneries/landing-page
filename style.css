@@ -95,12 +95,20 @@ body{
 
 /*Set the quote section*/
 .quote{
+    display: flex;
+    flex-direction: column;
     background-color: rgb(234, 165, 96);
     flex:1;
-    padding: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.quote .text{
+    text-align: center;
+    max-width: 70%;
+    align-self: center;
 }
 .author{
-    padding:30px;
+    align-self: flex-end;
 }
 
 /*Set the last section*/
