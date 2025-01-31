@@ -19,7 +19,18 @@ body{
     justify-content: space-between;
     padding: 10px;
 }
-
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+        font-size: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
 .bottom-header{
     flex:1;
     display: flex;
@@ -80,13 +91,30 @@ body{
 .quote{
     background-color: blueviolet;
     flex:1;
+    padding: 20px;
 }
+
+
+/*Set the last section*/
 
 .last-section{
+    display: flex;
     background-color: blanchedalmond;
     flex:1;
+    justify-content: center;
+    padding: 20px;
+}
+.call-to-action{
+    display: flex;
+    justify-content: space-around;
+    flex: auto;
+    max-width: 70%;
+    background-color: aqua;
+    padding: 10px;
+
 }
 
+/*Set the footer*/
 .footer{
     background-color: lightgrey;
     height: 30px;
