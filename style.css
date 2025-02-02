@@ -84,6 +84,7 @@ body{
     width: 70px;
     height: 100%;
     border-radius: 7px;
+    margin-bottom: 10px;
 }
 
 .first-box,.second-box,.third-box{
