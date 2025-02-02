@@ -23,10 +23,11 @@ body{
 .top-header{
     display: flex;
     justify-content: space-between;
+    font-size: 15px;
 }
 .logo{
     font-size: 50px;
-   font-family: serif;
+    font-family: serif;
 }
 .menu{
     display: flex;
@@ -51,6 +52,9 @@ body{
 .left-side .title{
     font-size:25px;
 }
+.left-side .text{
+    font-size: 15px;
+}
 .header img{
     height: 100%;
     width: 250px;
@@ -74,6 +78,7 @@ body{
     display:flex;
     flex: 1;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .content{
@@ -87,6 +92,10 @@ body{
     height: 100%;
     border-radius: 7px;
     margin-bottom: 10px;
+}
+.content-text{
+    font-weight: 400;
+    font-size: 15px;
 }
 
 .first-box,.second-box,.third-box{
@@ -110,9 +119,14 @@ body{
     max-width: 80%;
     align-self: center;
     line-height:1.5;
+    font-size: 15px;
+    padding-bottom: 0;
+    font-weight: 400;
 }
 .author{
     align-self: flex-end;
+    margin-top: 0;
+    font-weight: 500;
 }
 
 /*Set the last section*/
@@ -135,22 +149,30 @@ body{
     border-radius: 10px;
 
 }
+.call-to-action .text{
+    font-size: 13px;
+    font-weight: 500;
+}
 
 .call-to-action button{
     background-color:rgb(244, 136, 65);
     border: 1px;
     border-style: solid;
     border-color: antiquewhite;
+    font-weight: 500;
 }
 
 /*Set the footer*/
 .footer{
+    display: flex;
     background-color: lightgrey;
     height: 30px;
-    text-align: center;
-    padding-top: 5px;;
-}
+    font-size: 10px;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
 
+}
 /*Set the buttons*/
 button{
     padding: 10px;
