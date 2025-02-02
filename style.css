@@ -22,12 +22,8 @@ body{
 }
 .top-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     font-size: 15px;
-}
-.logo{
-    font-size: 50px;
-    font-family: serif;
 }
 .menu{
     display: flex;
